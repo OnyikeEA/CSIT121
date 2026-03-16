@@ -1,0 +1,59 @@
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+#authorinfo{
+    text-align: center;
+    font-style: italic;
+    font-family: Lucida Sans;
+    font-size: x-small;
+    color: rebeccapurple;
+}
+.tabs ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    border-radius: 25px;
+    padding: 8px 15px;
+    border: 2px solid rgb(110, 10, 32);
+}
+.quote{
+    font-weight: bold;
+}
+body{
+    background-color: bisque;
+}
+h1 {
+    text-align: center;
+    color: rgb(110, 10, 32);
+    font-family: 'Lucida Sans';
+}
+h2 {text-decoration: underline;
+    font-family: 'Lucida Sans';
+    font-size: 20px;
+}
+h3{text-decoration: underline;
+    font-family: 'Lucida Sans';
+}
+h4{text-decoration: underline;
+    font-family: 'Lucida Sans';
+}
+p{
+    font-family:'Lucida Sans';
+    font-size: small;
+    text-align: justify;
+    line-height: 1.5;
+}
+li{
+    font-family: 'Lucida Sans';
+    font-size: small;
+    line-height: 1.5;
+}
+footer{
+    text-align: center;
+    padding: 8px;
+    background-color: rgb(110, 10, 32);
+    position: relative;
+    font-style: oblique;
+}
