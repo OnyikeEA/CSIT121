@@ -1,7 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 1rem;
+    color: bisque;
+}
+nav{
+    background-color: rgb(110, 10, 32);
+    }
+nav ul li a:hover{
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 5px;
+}
 .image{
     display: flex;
     justify-content: center;
-    align-items: center;    
+    padding: 0.5rem;    
 }
 #authorinfo{
     text-align: center;
@@ -9,14 +37,6 @@
     font-family: Lucida Sans;
     font-size: x-small;
     color: rebeccapurple;
-}
-.tabs ul{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    border-radius: 25px;
-    padding: 8px 15px;
-    border: 2px solid rgb(110, 10, 32);
 }
 .quote{
     font-weight: bold;
