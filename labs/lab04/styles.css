@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+img{
+    width: 100%;
+    height: auto;
+}
 nav ul{
     padding: 0;
     margin: 0;
@@ -20,6 +24,7 @@ nav ul li a{
 }
 nav{
     background-color: rgb(110, 10, 32);
+    border: black solid 2px;
     }
 nav ul li a:hover{
     background-color: rebeccapurple;
@@ -43,6 +48,7 @@ nav ul li a:hover{
 }
 body{
     background-color: bisque;
+    display: grid;
 }
 h1 {
     text-align: center;
